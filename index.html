@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>i.Fest 2017</title>
+    <link rel="stylesheet" href="css/vertical_carousal.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <style>
+        html, body, #myVerticalCarousel {
+            height: 100%;
+            margin: 0;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        #a {
+            background-image: url(http://www.msufp.in/2016/images/web.gif.gif);
+            webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        #b {
+            background: #656D77;
+        }
+
+        #c {
+            background: red;
+        }
+
+        #d {
+            background-image: url(https://media.giphy.com/media/htdYVBpUbStnW/giphy.gif);
+            webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .bottom-navbar {
+            position: fixed;
+            bottom: 30px;
+            right: 50px;
+        }
+
+        .icon {
+            padding: 10px 7px;
+            font-size: 20px;
+        }
+
+        .icon-a {
+            color: inherit;
+            cursor: pointer;
+        }
+
+        .icon-a:hover {
+            color: #f5f5f5;
+
+        }
+
+        .top-logo {
+            position: fixed;
+            top: 30px;
+            left: 50px;
+        }
+
+        .button-class {
+            position: fixed;
+            top: 30px;
+            right: 50px;
+        }
+
+        .button-class:hover {
+            cursor: pointer;
+        }
+
+        .top-navbar-links {
+            position: fixed;
+            right: 80px;
+            top: 33px;
+        }
+
+        .top-navbar-icon {
+            font-size: 25px;
+            color: #e3e3e3;
+        }
+
+        .inline {
+            display: inline;
+        }
+
+        .top-navbar-links-a {
+            color: #959595;
+            text-decoration: none;
+            padding: 2px 15px;
+            font-size: 16px;
+            border: 2px solid transparent;
+        }
+
+        .top-navbar-links-a:hover {
+            text-decoration: none;
+            color: black;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: #e2e2e2;
+
+        }
+
+        .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
+
+        .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .overlay a:hover, .overlay a:focus {
+            color: #f1f1f1;
+        }
+
+        .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .overlay a {
+                font-size: 20px
+            }
+
+            .overlay .closebtn {
+                font-size: 40px;
+                top: 15px;
+                right: 35px;
+            }
+        }
+
+        #myNav {
+            visibility: hidden;
+        }
+
+        #top-navbar-content-2 {
+            visibility: hidden;
+        }
+
+        @media (max-width: 640px) {
+            #myNav {
+                visibility: visible;
+            }
+
+            .top-navbar-links {
+                visibility: hidden;
+            }
+
+            #top-navbar-content {
+                visibility: hidden;
+            }
+
+            #top-navbar-cross {
+                visibility: hidden;
+            }
+
+            #top-navbar-content-2 {
+                visibility: visible;
+            }
+
+            .button-class {
+                top: 20px;
+                right: 0px;
+            }
+
+            .top-logo {
+                top: 10px;
+                left: 20px;
+            }
+
+            .bottom-navbar {
+                right: 40%;
+                left: 40%;
+
+            }
+
+            .icon {
+                padding: 5px;
+            }
+
+        }
+
+        @media (min-width: 640px) and (max-width: 768px) {
+
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+
+        }
+
+    </style>
+</head>
+<body>
+<div id="myVerticalCarousel" class="vertical-carousel" data-urlLock="false" data-rests-indicators="#navbar-collapse li">
+    <ol class="vertical-carousel-indicators">
+        <li data-target="#myVerticalCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myVerticalCarousel" data-slide-to="1"></li>
+        <li data-target="#myVerticalCarousel" data-slide-to="2"></li>
+        <li data-target="#myVerticalCarousel" data-slide-to="3"></li>
+    </ol>
+
+
+    <div class="vertical-carousel-box">
+        <div id="a" class="item active">
+            <span></span>
+            <!--<p>Vertical Carousal jQuery Plugin Demo</p>-->
+        </div>
+        <div id="b" class="item">
+            <span></span>
+            <p>Second page</p>
+        </div>
+        <div id="c" class="item">
+            <span></span>
+            <p>Third page</p>
+        </div>
+        <div id="d" class="item">
+            <span></span>
+        </div>
+    </div>
+    <div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <ul class="top-navbar-links" hidden>
+            <li class="inline"><a class="top-navbar-links-a" href="#home">HOME</a></li>
+            <li class="inline"><a class="top-navbar-links-a" href="#home">ABOUT</a></li>
+            <li class="inline"><a class="top-navbar-links-a" href="#news">EVENTS</a></li>
+            <li class="inline"><a class="top-navbar-links-a" href="#contact">GALLERY</a></li>
+            <li class="inline"><a class="top-navbar-links-a" href="#about">CONTACT</a></li>
+            <li class="inline"><a class="top-navbar-links-a" href="#about">SPONSORS</a></li>
+            <li class="inline"><a class="top-navbar-links-a" href="#about">THE TEAM</a></li>
+            <li class="inline"><a class="top-navbar-links-a" href="#about">LOGIN</a></li>
+        </ul>
+        <div class="button-class">
+            <i id="top-navbar-content-2" onclick="openNav()" class="fa fa-bars top-navbar-icon" aria-hidden="true"></i>
+            <i id="top-navbar-content" class="fa fa-bars top-navbar-icon" aria-hidden="true"></i>
+            <i id="top-navbar-cross" hidden class="fa fa-times top-navbar-icon" aria-hidden="true"></i>
+
+        </div>
+    </div>
+    <div class="top-logo">
+        <img src="assets/ieee.png" width="135"/>
+    </div>
+    <div class="bottom-navbar">
+        <div class="row">
+            <a class="icon-a"><i class="fa fa-facebook icon" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-envelope-o icon" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-play icon" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/vertical_carousal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+<script src="js/javascript.js"></script>
+</html>
