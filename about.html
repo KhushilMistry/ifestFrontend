@@ -2,9 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>i.Fest 2017</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/other.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
 
+<div class="particle-Header">
+    <div id="particles-js">
+        <div class="top-navbar">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <ul class="top-navbar-links" hidden>
+                <li class="inline"><a class="top-navbar-links-a" href="index.html">HOME</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="about.html">ABOUT</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="events.html">EVENTS</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="gallery.html">GALLERY</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="contact.html">CONTACT</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="sponsors.html">SPONSORS</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="team.html">THE TEAM</a></li>
+                <li class="inline"><a class="top-navbar-links-a"
+                        href="https://ifestvolunteer.firebaseapp.com/#/login" target="_blank">LOGIN</a></li>
+            </ul>
+            <div class="button-class">
+                <i id="top-navbar-content-2" onclick="openNav()" class="fa fa-bars top-navbar-icon"></i>
+                <i id="top-navbar-content-3" onclick="hideButton()" class="fa fa-bars top-navbar-icon"></i>
+                <i id="top-navbar-cross-3" onclick="showButton()" class="fa fa-times top-navbar-icon"></i>
+            </div>
+        </div>
+        <a href="index.html"><i class="fa fa-arrow-left fa-3x icon" aria-hidden="true"></i></a>
+        <h1 class="title">About i.Fest</h1>
+    </div>
+</div>
+<div class="container text-center">
+    <p class="large_text">i.Fest is an idea conceptualized by IEEE Student Branch at DA-IICT. </p>
+    <p class="large_text">Our main aim is to bring the budding engineers from all over India to a common platform so
+        that they can share
+        their knowledge with their fellow imaginers. The next big thing for engineers is to pull out graphics from
+        computer or television screen and integrate them into real world environment. With these innovative engineers
+        coming up, it will become more pervasive and ubiquitous.
+    </p>
+    <div class="bottom-navbar">
+        <div class="row">
+            <a class="icon-a"><i class="fa fa-facebook icon" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-envelope-o icon" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-play icon" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script>
+
+  document.getElementById("top-navbar-cross-3").style.display = "none";
+
+  particlesJS.load('particles-js', 'static/particles.json', function () {
+    console.log('callback - particles.js config loaded');
+  });
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+
+  }
+  function showButton() {
+    document.getElementById("top-navbar-content-3").style.display = "initial";
+    document.getElementById("top-navbar-cross-3").style.display = "none";
+  }
+  function hideButton() {
+    document.getElementById("top-navbar-content-3").style.display = "none";
+    document.getElementById("top-navbar-cross-3").style.display = "initial";
+  }
+</script>
+<script src="js/javascript.js"></script>
 </body>
 </html>
