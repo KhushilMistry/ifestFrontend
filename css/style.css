@@ -217,6 +217,22 @@ html, body, #myVerticalCarousel {
     font-size: 60px;
 }
 
+.slide-icon {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.slide-icon:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px
