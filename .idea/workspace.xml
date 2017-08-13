@@ -2,63 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bec00f6-fcb9-4bf7-89c2-20cb8c576f64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Cover.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Cover_new.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/blindc-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/iapp-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/ibiz-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/ibot-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/icapture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/iclash-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/icrypt-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/icube-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/idatabase-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/idecipher-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/ielectro-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/iganith-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/iintelligence-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/imaze-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/iquiz-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/irelay-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/iride.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/irubble-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/paintball.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/events/th-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/Directi-Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/Endeavor_Careers_Logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/IEEESB.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/ONGC.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/codechef.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/dst_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/gnfc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/gujcost_mainLogo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/hackerrank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/i.create logo.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/iassb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/mozilla.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/ncode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/wie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sponsors/wmf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/DSC_0007.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/DivyaSolanki.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/IMG_8577.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/Kishan.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/RiyaTalwar.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/Siddharth2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/Sravani Kalangi.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/akar.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/birva.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/harsh.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/prachi.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/sanjoli.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/team/savan.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/other.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/particles.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/javascript.js" afterPath="$PROJECT_DIR$/js/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navbar.css" afterPath="$PROJECT_DIR$/css/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sponsors.html" afterPath="$PROJECT_DIR$/sponsors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="other.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="other.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/other.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
@@ -83,11 +30,47 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="7" />
+              <folding>
+                <element signature="e#838#845#1" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sponsors.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sponsors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="166" column="9" lean-forward="false" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+              <folding>
+                <element signature="e#838#845#1" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="176" column="9" lean-forward="false" selection-start-line="176" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
               <folding>
                 <element signature="e#838#845#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/navbar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,21 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/navbar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2509">
-              <caret line="237" column="1" lean-forward="false" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="125" column="5" lean-forward="false" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -155,6 +128,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>botto</find>
+      <find>icon</find>
+      <find>bott</find>
+      <find>bottom-navbar</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -172,13 +153,13 @@
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/sponsors.html" />
-        <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/javascript.js" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/css/navbar.css" />
         <option value="$PROJECT_DIR$/css/other.css" />
+        <option value="$PROJECT_DIR$/css/navbar.css" />
+        <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/sponsors.html" />
       </list>
     </option>
   </component>
@@ -223,34 +204,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ifestFrontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ifestFrontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ifestFrontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ifestFrontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ifestFrontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,12 +657,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501999948013</updated>
-      <workItem from="1501999950201" duration="33105000" />
+      <workItem from="1501999950201" duration="36758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33105000" />
+    <option name="totallyTimeSpent" value="36758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="0" />
@@ -768,22 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sponsors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -829,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/particles.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -845,28 +774,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/js/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-          <folding>
-            <element signature="e#838#845#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2509">
-          <caret line="237" column="1" lean-forward="false" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="125" column="5" lean-forward="false" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -876,6 +795,46 @@
         <state relative-caret-position="196">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="7" />
+          <folding>
+            <element signature="e#838#845#1" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="176" column="9" lean-forward="false" selection-start-line="176" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+          <folding>
+            <element signature="e#838#845#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sponsors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="166" column="9" lean-forward="false" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+          <folding>
+            <element signature="e#838#845#1" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
