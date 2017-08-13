@@ -2,9 +2,838 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>i.Fest 2017</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/other.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
 
+<div class="particle-Header">
+    <div id="particles-js">
+        <div class="top-navbar">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="events.html">EVENTS</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="sponsors.html">SPONSORS</a>
+                    <a href="team.html">THE TEAM</a>
+                    <a href="https://ifestvolunteer.firebaseapp.com/#/login">LOGIN</a>
+                </div>
+            </div>
+            <ul class="top-navbar-links" hidden>
+                <li class="inline"><a class="top-navbar-links-a" href="index.html">HOME</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="about.html">ABOUT</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="events.html">EVENTS</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="gallery.html">GALLERY</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="contact.html">CONTACT</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="sponsors.html">SPONSORS</a></li>
+                <li class="inline"><a class="top-navbar-links-a" href="team.html">THE TEAM</a></li>
+                <li class="inline"><a class="top-navbar-links-a"
+                        href="https://ifestvolunteer.firebaseapp.com/#/login" target="_blank">LOGIN</a></li>
+            </ul>
+            <div class="button-class">
+                <i id="top-navbar-content-2" onclick="openNav()" class="fa fa-bars top-navbar-icon"></i>
+                <i id="top-navbar-content-3" onclick="hideButton()" class="fa fa-bars top-navbar-icon"></i>
+                <i id="top-navbar-cross-3" onclick="showButton()" class="fa fa-times top-navbar-icon"></i>
+            </div>
+        </div>
+        <a href="index.html"><i class="fa fa-arrow-left fa-3x icon" aria-hidden="true"></i></a>
+        <h1 class="title">EVENTS</h1>
+    </div>
+</div>
+<div class="container text-center">
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl">
+            <img class="center-block event-container" data-toggle="modal" data-target="#iApp"
+                    src="./assets/events/iapp-min.jpg" width="300" height="200">
+            <p class="event-name">i.App</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl">
+            <img class="center-block event-container" data-toggle="modal" data-target="#iRubble"
+                    src="./assets/events/irubble-min.jpg" width="300" height="200">
+            <p class="event-name">i.Rubble</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl">
+            <img class="center-block event-container" data-toggle="modal" data-target="#treasureHunt"
+                    src="./assets/events/th-min.jpg" width="300" height="200">
+            <p class="event-name">Treasure Hunt</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#ibiz"
+                    src="./assets/events/ibiz-min.jpg" width="300" height="200">
+            <p class="event-name">i.Biz</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#iride"
+                    src="./assets/events/iride.png" width="300" height="200">
+            <p class="event-name">i.Ride</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#blindC"
+                    src="./assets/events/blindc-min.jpg" width="300" height="200">
+            <p class="event-name">Blind C</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#iganith"
+                    src="./assets/events/iganith-min.jpg" width="300" height="200">
+            <p class="event-name">i.Ganith</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#iclash"
+                    src="./assets/events/iclash-min.jpg" width="300" height="200">
+            <p class="event-name">i.Clash</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#iintelligence"
+                    src="./assets/events/iintelligence-min.jpg" width="300"
+                    height="200">
+            <p class="event-name">i.Intelligence</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#icrypt"
+                    src="./assets/events/icrypt-min.jpg" width="300" height="200">
+            <p class="event-name">i.Crypt</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#icube"
+                    src="./assets/events/icube-min.jpg" width="300" height="200">
+            <p class="event-name">i.Cube</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#imaze"
+                    src="./assets/events/imaze-min.jpg" width="300" height="200">
+            <p class="event-name">i.Maze</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#idatabase"
+                    src="./assets/events/idatabase-min.jpg" width="300" height="200">
+            <p class="event-name">i.Database</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#iquiz"
+                    src="./assets/events/iquiz-min.jpg" width="300" height="200">
+            <p class="event-name">i.Quiz</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#ielectro"
+                    src="./assets/events/ielectro-min.jpg" width="300" height="200">
+            <p class="event-name">i.Electro</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#ibot"
+                    src="./assets/events/ibot-min.jpg" width="300" height="200">
+            <p class="event-name">i.Bot</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#irelay"
+                    src="./assets/events/irelay-min.jpg" width="300" height="200">
+            <p class="event-name">i.Relay</p>
+            <p class="event-type">Technical Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#idecipher"
+                    src="./assets/events/idecipher-min.jpg" width="300" height="200">
+            <p class="event-name">i.Decipher</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#paint_ball"
+                    src="./assets/events/paintball.jpg" width="300" height="200">
+            <p class="event-name">Paint Ball</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 margin-bottom-xl div-animation">
+            <img class="center-block event-container" data-toggle="modal" data-target="#icapture"
+                    src="./assets/events/icapture.jpg" width="300" height="200">
+            <p class="event-name">i.Capture</p>
+            <p class="event-type">Fun Event</p>
+        </div>
+    </div>
+
+    <!-- i.App-->
+    <div id="iApp" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.App</h1>
+                    </div>
+                    <div class="container padding-container text-center">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">i.App is a competition not only for android developers but also for those who
+                            possess a good
+                            idea which can be implemented through an application.</p>
+                    </div>
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Rubble-->
+    <div id="iRubble" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Rubble</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Unleash the creativity of your brain, dirty your hands in the pursuit of
+                            treasure from garbage!!! If you think you are creative enough to contrive something out of
+                            things that are not usable anymore, you are at the right place. An on-the-spot event that
+                            tests your innovative skills and thirst for creation. It's hard to make science more
+                            entertaining than this! So guys, gear up as this i-Fest pours in with a new and more
+                            thrilling challenge to make your adrenalin rush in your nerves.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Treasure Hunt-->
+    <div id="treasureHunt" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">Treasure Hunt</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Treasure Hunt is one of the non-technical and fun-filled events of i.Fest. Who
+                            doesn't enjoy being a detective for once and solve clues? Infact , you detectives are gonna
+                            receive prizes along the way too!!<br>
+                            So here's your chance to engage into one of the most happening events of i.Fest. You get to
+                            roam around the beautiful campus, make new friends , and simply enjoy , forgetting the
+                            technical stuff for sometime!! In addition to that, this time we have got for you an
+                            exciting theme.<br>
+                            So gear up with your detective backpacks and a puzzle-solving brain!! Hope to see you
+                            there!!! :)
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Biz-->
+    <div id="ibiz" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Biz</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Do you have any business idea? It's your chance to make it to the next stage!
+                            i.Biz is an event to promote Entrepreneurship, especially to encourage young Entrepreneur
+                            minds. So Frame your idea into a proper business plan and register here, who knows next
+                            Facebook or Flipkart is just one step away..!!
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Ride-->
+    <div id="iride" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Ride</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">It is a slow cycle riding competition where the one who comes last, wins. Only,
+                            there's a slight twist adding tons of fun to it! Adding a technical touch, the contestants
+                            will have to solve an extremely trivial puzzle while riding the bicycle itself.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Blind C-->
+    <div id="blindC" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">Blind C</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Wanna try something crazy and fun ?<br>
+                            We suggest coding with your eyes closed. Yes you heard us right !<br>
+                            Participate in Blind C. A simple coding contest where you code in basic C language while
+                            your monitor is switched off.<br>
+                            Two hours of nail biting excitement and brainstorming, where even newbies have a chance.<br>
+                            Best of all you could walk away with amazing prizes.
+
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Ganith-->
+    <div id="iganith" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Ganith</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">For math geeks who love walking through numbers, this is an event where
+                            mathematical skills stand out. Come show us your mathematical instinct.<br>
+
+                            The event will consist of three rounds. First two rounds will be conducted on Day1 and the
+                            third round on next day. First and second round will be a pen-paper round followed by an
+                            auction quiz(questions will be related to maths only) as the third round.<br>
+
+                            Those who qualify the first round will succeed to the second round and those qualifying the
+                            second round will advance to the third(final) round.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.clash-->
+    <div id="iclash" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Clash</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Do you get an adrenaline rush while playing games? Then this event is what
+                            you've been waiting for! Bringing you the gaming experience of Mini Militia for the first
+                            time in i.Fest.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Intelligence-->
+    <div id="iintelligence" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Intelligence</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Event is based on world famous artificial intelligence contest Robocode. It is a
+                            programming based game where the goal is to code a robot battle tank to compete against
+                            other robots in a battle arena. The player is the programmer of the robot, who will have no
+                            direct influence on the game. Instead, the player must write the AI code of the robot
+                            feeding code into it regarding how to behave and react on events occurring in the battle
+                            arena. Battle will be simulated in the computer using the special simulation software. All
+                            the platform and APIs are available for Java only. All the registered participants will be
+                            given the APIs and framework along with the instructions on how to get started, on which
+                            they have to work and code the strategy. This framework mainly contains the code for the
+                            graphics part of the tank and design of the arena. Thus, participant can check whether the
+                            intended feature is correctly implemented. So, start programming the ultimate bot today!
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Cube-->
+    <div id="icube" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Cube</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Passionate about Rubik’s Cube? Think you can beat the clock and others with your
+                            skills?
+                            Here’s a chance to prove your worth in these two cubing events.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Crypt-->
+    <div id="icrypt" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Crypt</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">The path of light is laid, the sacred test, Let angels guide thee on thy lofty
+                            quest..... Sounding familiar? If you're the person who loves breaking codes, this is the
+                            place to test your little grey cells. Come here and get a chance to see if there is a little
+                            of Robert Langdon in you!
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Maze-->
+    <div id="imaze" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Maze</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">The questions would be based on logical reasoning and general aptitude e.g.
+                            teasing puzzles, crosswords, word twisters, etc. Questions would be divided into two
+                            categories – simple and not so simple.<br>
+
+                            In case of any disputes, decision of I-Fest committee 2016 and co-ordinators will be final.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Database-->
+    <div id="idatabase" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Database</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">From Facebook to Zomato to your smart phones, databases are everywhere! Here’s
+                            your chance to model real life situations and re-envision database design and win exciting
+                            prizes. From the nitty gritties of the trivialist relationships, to the largest tables,
+                            design your way through the given scenarios, show your design skill and the glory will be
+                            yours.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- i.Quiz-->
+    <div id="iquiz" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Quiz</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">i.Quiz is back again to tickle those grey cell in your head. It will be delicacy
+                            to test your curiosity and how creatively you patch your facts with big O. The quiz will be
+                            consisting of all the topics in which sci-fi or technology could be thought of. All
+                            enthusiasts are welcome to flaunt their knowledge, put their Sherlock skills to test to work
+                            through questions and experience the feel on closely missing out on your guess. Prizes at
+                            stake worth 10k!
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- i.Electro-->
+    <div id="ielectro" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Electro</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">This phase consist MCQ based Questions on different field like Digital Logic
+                            Design, Basic Electronic Circuit, Electro Static, Electro dynamics.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- i.Bot-->
+    <div id="ibot" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Bot</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Does robotics excite you? Grab this opportunity to build your autonomous robot
+                            and tackle the challanges to kick start into the enthralling world of bots. Bolt your bots
+                            and gear them up strong for the ultimate robo challenge.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- i.Relay-->
+    <div id="irelay" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Relay</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Three coders united in ONE! Yes, that's what it is. i.Relay is for those who can
+                            communicate with their code:-p.<br>
+
+                            First time ever a relay coding event being organised where every skills speed, aptitude,
+                            understanding, teamwork everything is going to be tested.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- i.Decipher-->
+    <div id="idecipher" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Decipher</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">Have you ever thought of yourself lost in a maze full of challanges?<br>
+
+                            Do you think your mind can decode the puzzles presented in form of images?<br>
+
+                            Well here is your chance to check yourself out.<br>
+
+                            Presented a range of visual clues and neuron twisting questions to solve, this one is the
+                            fun event to put your minds(and googling skills!) on work.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Paint Ball-->
+    <div id="paint_ball" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">Paint Ball</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">This year i.Fest brings something new and exciting. Get ready to be painted,
+                            dirty and energized. For all the counter-strike lovers out there, go outdoors on open-field
+                            and have real fun.<br>
+
+
+                            In paintball, eliminate opponents from play by hitting them with dye-filled, oil paintballs.
+                            Understand the rules of the game, dress up in safe jackets, helmets, neck guards, guns,
+                            bullets and yes everything is hygienic and clean.<br>
+
+
+                            So get ready for a thrilling adventure and win the game! Hope to see you in large numbers!!!<br>
+
+                            Charges are Rs 150/person for 30 bullets.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- i.capture-->
+    <div id="icapture" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <button type="button" data-dismiss="modal" class="close"><i class="fa fa-times fa-2x"
+                                aria-hidden="true"></i></button>
+                        <h1 class="modal-event-heading">i.Capture</h1>
+                    </div>
+                    <div class="container padding-container text-center ">
+                        <h2 class="heading">DESCRIPTION</h2>
+                        <hr class="under_head">
+                        <p class="lead">If you want to be recognized for your photography skills and want a challenge
+                            for yourself, i.Capture is the ground for you.
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-default page-bottom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="bottom-navbar container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-10 col-sm-offset-3">
+            <a class="icon-a"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            <a class="icon-a"><i class="fa fa-play" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script>
+
+  document.getElementById("top-navbar-cross-3").style.display = "none";
+
+  particlesJS.load('particles-js', 'static/particles.json', function () {
+    console.log('callback - particles.js config loaded');
+  });
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+
+  }
+  function showButton() {
+    document.getElementById("top-navbar-content-3").style.display = "initial";
+    document.getElementById("top-navbar-cross-3").style.display = "none";
+  }
+  function hideButton() {
+    document.getElementById("top-navbar-content-3").style.display = "none";
+    document.getElementById("top-navbar-cross-3").style.display = "initial";
+  }
+
+</script>
+<script>
+
+  $(document).ready(function () {
+
+    $(window).scroll(function () {
+      $('.div-animation').each(function (i) {
+
+        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+
+        if (bottom_of_window > bottom_of_object) {
+
+          $(this).animate({ 'opacity': '1' }, 1500);
+
+        }
+
+      });
+
+    });
+
+  });
+</script>
+<script src="js/javascript.js"></script>
 </body>
 </html>
