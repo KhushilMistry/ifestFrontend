@@ -208,6 +208,21 @@ canvas {
     opacity: .3;
 }
 
+.contact-text{
+    color: #636363;
+    padding: 7px 0px 5px 0px;
+    font-size: 18px;
+}
+
+.contact-hr{
+    width: 20%;
+    border: none;
+    height: 4px;
+    color: #f9ed2e;
+    background-color: #f9ed2e;
+}
+
+
 @media (min-width: 768px) {
     .div-animation {
         opacity: 1;
