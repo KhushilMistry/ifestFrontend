@@ -1,5 +1,5 @@
 .bottom-navbar {
-    margin-bottom : 20px;
+    margin-bottom: 20px;
 }
 
 i, li, a {
@@ -10,7 +10,7 @@ i, li, a {
     color: black;
     cursor: pointer;
     padding: 7px 10px;
-    font-size : 18px;
+    font-size: 18px;
 }
 
 .icon-a:hover {
