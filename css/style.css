@@ -81,7 +81,7 @@ html, body, #myVerticalCarousel {
 }
 
 #a {
-    background-image: url(http://www.msufp.in/2016/images/web.gif.gif);
+    background-image: url("../assets/firstpage.gif");
     webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
