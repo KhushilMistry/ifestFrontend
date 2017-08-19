@@ -1,10 +1,12 @@
+body {
+    min-width: 100%;
+}
+
 .bottom-navbar {
     margin-bottom: 20px;
 }
 
-i, li, a {
-    z-index: 100;
-}
+
 
 .icon-a {
     color: black;
@@ -128,7 +130,8 @@ i, li, a {
     }
 }
 
-@media (max-width: 640px) {
+
+@media screen and (min-width: 0px) {
     #myNav {
         visibility: visible;
     }
@@ -149,34 +152,30 @@ i, li, a {
         visibility: visible;
     }
 
-    .button-class {
-        top: 20px;
-        right: 0px;
-    }
-
-    .top-logo {
-        top: 10px;
-        left: 20px;
-    }
-
-    .bottom-navbar {
-
-    }
-
-    .icon {
-        padding: 5px;
-    }
-
 }
 
-@media (min-width: 640px) and (max-width: 768px) {
+@media screen and (min-width: 992px) {
+    #myNav {
+        visibility: hidden;
+    }
 
+    .top-navbar-links {
+        visibility: visible;
+    }
+
+    #top-navbar-content-3 {
+        visibility: visible;
+    }
+
+    #top-navbar-cross-3 {
+        visibility: visible;
+    }
+
+    #top-navbar-content-2 {
+        visibility: hidden;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
 
-}
 
-@media (min-width: 992px) and (max-width: 1200px) {
 
-}
