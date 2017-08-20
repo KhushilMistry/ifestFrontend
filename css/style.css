@@ -84,19 +84,18 @@ html, body, #myVerticalCarousel {
     padding: 120px 100px 100px 100px;
 }
 
-.about-ifest-header{
+.about-ifest-header {
     padding: 40px;
     color: #b1b1b1;
     font-size: 36px;
     letter-spacing: 1px;
 }
 
-.about-ifest-content{
+.about-ifest-content {
     font-size: 21px;
     letter-spacing: 0.6px;
     color: #919191;
 }
-
 
 #a {
     background-image: url("../assets/firstpage.gif");
@@ -118,6 +117,18 @@ html, body, #myVerticalCarousel {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
+
+#video-background {
+    /*  making the video fullscreen  */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
 }
 
 #c {
@@ -329,11 +340,11 @@ html, body, #myVerticalCarousel {
         left: 0px;
     }
 
-    .container-about-us{
+    .container-about-us {
         padding: 100px 30px 0px 30px;
     }
 
-    .about-ifest-header{
+    .about-ifest-header {
         padding: 10px;
     }
 
@@ -341,9 +352,6 @@ html, body, #myVerticalCarousel {
         font-size: 18px;
         letter-spacing: 0.2px;
     }
-
-
-
 
     .slide-icon:hover {
         background-color: transparent;
