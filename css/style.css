@@ -80,6 +80,24 @@ html, body, #myVerticalCarousel {
     text-align: center;
 }
 
+.container-about-us {
+    padding: 120px 100px 100px 100px;
+}
+
+.about-ifest-header{
+    padding: 40px;
+    color: #b1b1b1;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.about-ifest-content{
+    font-size: 21px;
+    letter-spacing: 0.6px;
+    color: #919191;
+}
+
+
 #a {
     background-image: url("../assets/firstpage.gif");
     webkit-background-size: cover;
@@ -92,7 +110,14 @@ html, body, #myVerticalCarousel {
 }
 
 #b {
-    background: #656D77;
+    background-image: url("../assets/about_ifest.gif");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 #c {
@@ -220,6 +245,8 @@ html, body, #myVerticalCarousel {
 .slide-icon {
     position: absolute;
     bottom: 20px;
+    right: 49%;
+    left: 48%;
     color: white;
     font-size: 30px;
     padding: 5px;
@@ -296,7 +323,33 @@ html, body, #myVerticalCarousel {
 
 }
 
-@media (min-width: 640px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
+    .slide-icon {
+        right: 0px;
+        left: 0px;
+    }
+
+    .container-about-us{
+        padding: 100px 30px 0px 30px;
+    }
+
+    .about-ifest-header{
+        padding: 10px;
+    }
+
+    .about-ifest-content {
+        font-size: 18px;
+        letter-spacing: 0.2px;
+    }
+
+
+
+
+    .slide-icon:hover {
+        background-color: transparent;
+        color: white;
+        opacity: 0.5;
+    }
 
 }
 
