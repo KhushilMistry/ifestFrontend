@@ -136,11 +136,22 @@ html, body, #myVerticalCarousel {
 }
 
 #d {
-    background-image: url(https://media.giphy.com/media/htdYVBpUbStnW/giphy.gif);
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*background: rgba(0, 0, 0, 0);*/
+    /*text-align:center;*/
+    /*padding:45px 0 66px 0;*/
+    /*-webkit-transition: opacity .25s ease;*/
+    background: transparent;
+}
+
+#map {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
 }
 
 .bottom-navbar {
@@ -283,12 +294,45 @@ html, body, #myVerticalCarousel {
     }
 }
 
+.contact-left {
+    position: absolute;
+    bottom: 170px;
+    left: 200px;
+}
+
+.contact-right {
+    position: absolute;
+    bottom: 170px;
+    right: 200px;
+}
+
+.contact-name {
+    font-size: 24px;
+    color: #3b3b3b;
+}
+
+.contact-number {
+    font-size: 18px;
+    color: #555555;
+}
+
 #myNav {
     visibility: hidden;
 }
 
 #top-navbar-content-2 {
+    color: #bebebe;
     visibility: hidden;
+}
+
+#top-navbar-cross {
+    color: #bebebe;
+    z-index: 50;
+}
+
+#top-navbar-content {
+    color: #bebebe;
+    z-index: 50;
 }
 
 @media (max-width: 640px) {

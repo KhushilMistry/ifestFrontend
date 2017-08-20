@@ -52,7 +52,15 @@
                     aria-hidden="true"></i>
         </div>
         <div id="d" class="item">
-            <span></span>
+            <div id="map"></div>
+            <div class="contact-left">
+                <p class="contact-name">Divya Solanki</p>
+                <p class="contact-number">+91 7202839225</p>
+            </div>
+            <div class="contact-right">
+                <p class="contact-name">Abhin Kakkad</p>
+                <p class="contact-number">+91 9409170708</p>
+            </div>
             <i data-target="#myVerticalCarousel" data-slide-to="0" class="fa fa-arrow-up slide-icon"
                     aria-hidden="true"></i>
         </div>
@@ -62,7 +70,6 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
                 <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
                 <a href="events.html">EVENTS</a>
                 <a href="gallery.html">GALLERY</a>
                 <a href="contact.html">CONTACT</a>
@@ -73,7 +80,6 @@
         </div>
         <ul class="top-navbar-links" hidden>
             <li class="inline"><a class="top-navbar-links-a" href="index.html">HOME</a></li>
-            <li class="inline"><a class="top-navbar-links-a" href="about.html">ABOUT</a></li>
             <li class="inline"><a class="top-navbar-links-a" href="events.html">EVENTS</a></li>
             <li class="inline"><a class="top-navbar-links-a" href="gallery.html">GALLERY</a></li>
             <li class="inline"><a class="top-navbar-links-a" href="contact.html">CONTACT</a></li>
@@ -136,5 +142,24 @@
     document.getElementById("myNav").style.width = "0%";
   }
 </script>
+<script>
+  function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var myCenter = new google.maps.LatLng(23.188546, 72.629720);
+    var mapOptions = { center: myCenter, zoom: 16, disableDefaultUI: true };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var icon = {
+      url: "./assets/logo.png", // url
+      scaledSize: new google.maps.Size(43, 50), // scaled size
+    };
+    var marker = new google.maps.Marker({
+      position: myCenter,
+      icon: icon,
+      animation: google.maps.Animation.BOUNCE
+    });
+    marker.setMap(map);
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ-bSzZ8xCvYerg60pxFw6CO0StW1C7R8&callback=myMap"></script>
 <script src="js/javascript.js"></script>
 </html>
