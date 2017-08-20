@@ -40,20 +40,22 @@
                     out graphics from computer or television screen and integrate them into real world environment. With
                     these innovative engineers coming up, it will become more pervasive and ubiquitous.
                 </p>
-                </video>
             </div>
             <i data-target="#myVerticalCarousel" data-slide-to="2" class="fa fa-arrow-down slide-icon"
                     aria-hidden="true"></i>
         </div>
         <div id="c" class="item">
-            <span></span>
-            <p>Third page</p>
+            <h1 class="verticle-align" id="event-name">EVENTS</h1>
+            <a class="event-icon" href="events.html"><img src="./assets/move-icon/electric.png" id="move-icon-1"></a>
+            <a class="event-icon" href="events.html"><img src="./assets/move-icon/fun.png" id="move-icon-2"></a>
+            <a class="event-icon" href="events.html"><img src="./assets/move-icon/inellect.png" id="move-icon-3"></a>
+            <a class="event-icon" href="events.html"><img src="./assets/move-icon/software.png" id="move-icon-4"></a>
             <i data-target="#myVerticalCarousel" data-slide-to="3" class="fa fa-arrow-down slide-icon"
                     aria-hidden="true"></i>
         </div>
         <div id="d" class="item">
             <div id="map"></div>
-            <div class="contact-left">
+            <div class="contact-left ">
                 <p class="contact-name">Divya Solanki</p>
                 <p class="contact-number">+91 7202839225</p>
             </div>
@@ -159,6 +161,114 @@
     });
     marker.setMap(map);
   }
+</script>
+<script>
+  $(document).ready(function () {
+    function beeLeft() {
+      $("#move-icon-1").animate({ top: "-=20" }, 2400, "swing", beeRight);
+    }
+
+    function beeRight() {
+      $("#move-icon-1").animate({ top: "+=20" }, 2400, "swing", beeLeft);
+    }
+
+    beeRight();
+
+    function beeLeft1() {
+      $("#move-icon-2").animate({ top: "-=25" }, 2300, "swing", beeRight1);
+    }
+
+    function beeRight1() {
+      $("#move-icon-2").animate({ top: "+=25" }, 2300, "swing", beeLeft1);
+    }
+
+    beeRight1();
+
+    function beeLeft3() {
+      $("#move-icon-3").animate({ top: "-=15" }, 2100, "swing", beeRight3);
+    }
+
+    function beeRight3() {
+      $("#move-icon-3").animate({ top: "+=15" }, 1100, "swing", beeLeft3);
+    }
+
+    beeRight3();
+
+    function beeLeft4() {
+      $("#move-icon-4").animate({ top: "-=15" }, 2200, "swing", beeRight4);
+    }
+
+    function beeRight4() {
+      $("#move-icon-4").animate({ top: "+=15" }, 1200, "swing", beeLeft4);
+    }
+
+    beeRight4();
+
+
+    $("#move-icon-1").hover(function () {
+      document.getElementById("event-name").innerHTML = "ELECTRIC";
+      $(this).stop();
+      $(this).animate({
+        width: '220'
+      }, "fast");
+    });
+
+    $("#move-icon-1").mouseleave(function () {
+      document.getElementById("event-name").innerHTML = "EVENTS";
+      $(this).animate({
+        width: '200'
+      }, "fast");
+      $("#move-icon-1").animate({ top: '400' }, 1500, "swing", beeRight);
+    });
+
+    $("#move-icon-2").hover(function () {
+      document.getElementById("event-name").innerHTML = "FUN";
+      $(this).stop();
+      $(this).animate({
+        width: '270'
+      }, "fast");
+    });
+    $("#move-icon-2").mouseleave(function () {
+      document.getElementById("event-name").innerHTML = "EVENTS";
+      $(this).animate({
+        width: '250'
+      }, "fast");
+      $("#move-icon-2").animate({ top: "350" }, 1500, "swing", beeRight1);
+    });
+
+    $("#move-icon-3").hover(function () {
+      document.getElementById("event-name").innerHTML = "INTELLECT";
+      $(this).stop();
+      $(this).animate({
+        width: '200'
+      }, "fast");
+    });
+    $("#move-icon-3").mouseleave(function () {
+      document.getElementById("event-name").innerHTML = "EVENTS";
+      $(this).animate({
+        width: '180'
+      }, "fast");
+      $("#move-icon-3").animate({ top: "100" }, 1500, "swing", beeRight3);
+    });
+
+    $("#move-icon-4").hover(function () {
+      document.getElementById("event-name").innerHTML = "SOFTWARE";
+      $(this).stop();
+      $(this).animate({
+        width: '240'
+      }, "fast");
+    });
+
+    $("#move-icon-4").mouseleave(function () {
+      document.getElementById("event-name").innerHTML = "EVENTS";
+      $(this).animate({
+        width: '220'
+      }, "fast");
+      $("#move-icon-4").animate({ top: "100" }, 1500, "swing", beeRight4);
+    });
+
+
+  });
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ-bSzZ8xCvYerg60pxFw6CO0StW1C7R8&callback=myMap"></script>
 <script src="js/javascript.js"></script>
